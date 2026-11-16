@@ -27,4 +27,4 @@ if st.button("Gerar Relatório"):
         with st.spinner("Gerando relatório..."):
             response = model.generate_content(prompt)
             st.markdown("### Resultado:")
-            st.write(response.text)S
+            st.write(response.text)
