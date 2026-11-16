@@ -6,7 +6,6 @@ st.set_page_config(page_title="Gerador Relatório 5S", page_icon="📋")
 st.title("📋 Gerador de Relatório de Auditoria 5S")
 st.write("Insira os dados da auditoria para gerar o relatório executivo padronizado.")
 
-# Campo para a chave da API do Gemini (ou você pode fixar se preferir)
 api_key = st.text_input("Cole sua Chave da API do Google AI Studio:", type="password")
 
 setor = st.text_input("Setor Inspecionado (ex: Aves I):")
